@@ -1,0 +1,14 @@
+.section {
+  width: 768px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 177px 130px 33px 95px;
+
+  @media screen and (max-width: 576px) {
+    padding: 100px 15px 33px;
+  }
+}

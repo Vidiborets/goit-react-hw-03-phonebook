@@ -1,0 +1,29 @@
+.itemList {
+  display: flex;
+  justify-content: space-around;
+}
+.contactName {
+  font-size: 15px;
+  margin-right: 10px;
+}
+.contactNumber {
+  text-decoration: none;
+  color: #666;
+  margin-right: 10px;
+}
+.contactDelete {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  width: 90px;
+  height: 20px;
+  border-radius: 25px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px;
+  border: none;
+  outline: none;
+}
